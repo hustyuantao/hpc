@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Demo</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>排名</th>                                          
+			<th>研制厂商</th>
+			<th>型号</th>
+			<th>安装地点</th>
+			<th>安装年份</th>
+			<th>应用领域</th>
+			<th>CPU核数</th>
+			<th>Linpack值</th>
+			<th>Linpack来源</th>
+			<th>Linpack峰值</th>
+			<th>效率</th>
+		</tr>
+		{% if top100_list %}
+			{% for top100 in top100_list %}
+			<tr>
+				<td>{{top100.rank}}</td>
+				<td>{{top100.manufacturer}}</td>
+				<td>{{top100.computer}}</td>
+				<td>{{top100.site}}</td>
+				<td>{{top100.year}}</td>
+				<td>{{top100.segment}}</td>
+				<td>{{top100.total_cores}}</td>
+				<td>{{top100.rmax}}</td>
+				<td>{{top100.reference}}</td>
+				<td>{{top100.rpeak}}</td>
+				<td>{{top100.efficiency}}</td>
+			
+			</tr>
+			{% endfor %}
+		{% endif %}
+	</table>
+</body>
+</html>
