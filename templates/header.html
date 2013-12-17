@@ -1,0 +1,48 @@
+{% load staticfiles %}
+<div class="headWrap">
+    <div class="head">
+        <a href="#" title="HTP TOP100" class="logo">
+			<img src="{% static 'images/logo.jpg' %}" alt=""></img>
+		</a>
+        <ul class="nav">
+            <li>
+				<a href="#">首     页</a>
+			</li>
+            <li>
+				<a href="#">排 行 榜</a>
+				<ul>
+					<li><a href="#">最新榜单</a></li>
+					<li><a href="#">历史榜单</a></li>
+					<li><a href="#">统计分析</a></li>
+				</ul>
+			</li>
+            <li>
+				<a href="#">行业资讯</a>
+				<ul>
+					<li><a href="#">业界新闻</a></li>
+					<li><a href="#">知名机构</a></li>
+					<li><a href="#">HPC专家</a></li>
+					<li><a href="#">知名系统</a></li>
+					<li><a href="#">知名厂商</a></li>
+					<li><a href="#">HPC技术</a></li>
+				</ul>
+			</li>
+            <li>
+				<a href="#">入榜预测 </a>
+				<ul>
+					<li><a href="#">性能入榜</a></li>
+					<li><a href="#">预算入榜</a></li>
+					<li><a href="#">入榜申请</a></li>
+				</ul>
+			</li>
+            <li>
+				<a href="#">关于TOP100 </a>
+				<ul>
+					<li><a href="#">TOP100介绍</a></li>
+					<li><a href="#">大事记</a></li>
+				</ul>
+			</li>
+            <li><a href="{% url 'portal:contactus' %}">联系我们</a></li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.bd {
+	float: left;
+	width: 1020px;
+	height: 90px;
+	padding: 28px 0 28px 80px;
+	clear: both;
+	background: #f1f1f1;
+	background:#f1f1f1 url(../images/bd.gif) no-repeat;
+}
+
+.bd li {
+	float: left;
+	width: 206px;
+	height: 90px;
+	padding: 0 20px 0 22px;
+}

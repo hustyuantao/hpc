@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>图文混排类</title>
+<link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+<body>
+<!--  头部  -->
+<div class="headWrap">
+    <div class="head">
+        <a href="/" title="HTP TOP100" class="logo"><img src="images/logo.jpg" alt=""/></a>
+        <ul class="nav">
+            <li><a href="#">首     页</a></li>                       
+            <li><a href="#">排 行 榜</a></li>                       
+            <li><a href="#">行业资讯 </a></li>                      
+            <li><a href="#">入榜预测 </a></li>                  
+            <li><a href="#">关于TOP100 </a></li>                   
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+
+ <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+ <script src="js/archefoucs.js" type="text/javascript"></script>
+<div class="gg" id="gg">
+    <div class="ggLoading">
+        <div class="ggLoading2"><em></em></div>
+    </div>
+    <div class="ggs">
+        <div class="ggBox" id="ggBox">
+            <a href="#" target="_blank" title="" style="z-index: 3; opacity: 4;">
+                <img src="images/1920_421_02.jpg" alt="" /></a>
+            <a href="#" target="_blank" title="">
+                <img src="images/1920_421_01.jpg" alt="" /></a>
+        </div>
+    </div>
+    <div class="ggb">
+        <div class="ggBtns" id="ggBtns">
+            <a title="" href='javascript:void(0)' class="ggOn"><em>1</em></a>
+            <a title="" href='javascript:void(2)'><em>2</em></a>
+        </div>
+    </div>
+</div> 
+ 
+<div class="mainWrap">
+    <div class="main">
+        <div class="mainBar">
+                <div class="searchBox">
+                    <input type="text" class="input"/>
+                    <input type="submit" class="submit"/>
+                </div>                
+                <div class="Menubox">
+                    <ul>
+                        <li  onclick="setTab('seven',1,3)" class="hover">TOP100排行榜</li>
+                    </ul>
+                </div>
+                <div class="MenuboxC">
+                    <div id="con_seven_1" class="hover" style="display: block;">
+                        <div class="MenuboxCB">
+                            <table class="table1"  border="0" cellspacing="1"> 
+                                <tr>
+                                    <th>排名</th>                                          
+                                    <th>研制厂商</th>
+                                    <th>型号</th>
+                                    <th>安装地点</th>
+                                    <th>安装年份</th>
+                                    <th>应用领域</th>
+                                    <th>CPU核数</th>
+                                    <th>Linpack值</th>
+                                    <th>Linpack来源</th>
+                                    <th>Linpack峰值</th>
+                                    <th>效率</th>
+                                    <th>榜单时间</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>IBM</td>
+                                    <td>IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td>中国<br/>国家气象局</td>
+                                    <td>2005</td>
+                                    <td>大气气象</td>
+                                    <td>3200</td>
+                                    <td>10310</td>
+                                    <td>T</td>
+                                    <td>21760</td>
+                                    <td>0.47</td>
+                                    <td>2006</td>
+                                </tr>
+                                <tr>
+                                    <td class="td">2</td>
+                                    <td class="td">IBM</td>
+                                    <td class="td">IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td class="td">中国<br/>国家气象局</td>
+                                    <td class="td">2005</td>
+                                    <td class="td">大气气象</td>
+                                    <td class="td">3200</td>
+                                    <td class="td">10310</td>
+                                    <td class="td">T</td>
+                                    <td class="td">21760</td>
+                                    <td class="td">0.47</td>
+                                    <td class="td">2006</td>
+                                </tr>
+                        <tr>
+                                    <td>1</td>
+                                    <td>IBM</td>
+                                    <td>IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td>中国<br/>国家气象局</td>
+                                    <td>2005</td>
+                                    <td>大气气象</td>
+                                    <td>3200</td>
+                                    <td>10310</td>
+                                    <td>T</td>
+                                    <td>21760</td>
+                                    <td>0.47</td>
+                                    <td>2006</td>
+                                </tr>
+                                <tr>
+                                    <td class="td">2</td>
+                                    <td class="td">IBM</td>
+                                    <td class="td">IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td class="td">中国<br/>国家气象局</td>
+                                    <td class="td">2005</td>
+                                    <td class="td">大气气象</td>
+                                    <td class="td">3200</td>
+                                    <td class="td">10310</td>
+                                    <td class="td">T</td>
+                                    <td class="td">21760</td>
+                                    <td class="td">0.47</td>
+                                    <td class="td">2006</td>
+                                </tr>
+                        <tr>
+                                    <td>1</td>
+                                    <td>IBM</td>
+                                    <td>IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td>中国<br/>国家气象局</td>
+                                    <td>2005</td>
+                                    <td>大气气象</td>
+                                    <td>3200</td>
+                                    <td>10310</td>
+                                    <td>T</td>
+                                    <td>21760</td>
+                                    <td>0.47</td>
+                                    <td>2006</td>
+                                </tr>
+                                <tr>
+                                    <td class="td">2</td>
+                                    <td class="td">IBM</td>
+                                    <td class="td">IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td class="td">中国<br/>国家气象局</td>
+                                    <td class="td">2005</td>
+                                    <td class="td">大气气象</td>
+                                    <td class="td">3200</td>
+                                    <td class="td">10310</td>
+                                    <td class="td">T</td>
+                                    <td class="td">21760</td>
+                                    <td class="td">0.47</td>
+                                    <td class="td">2006</td>
+                                </tr>
+                        <tr>
+                                    <td>1</td>
+                                    <td>IBM</td>
+                                    <td>IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td>中国<br/>国家气象局</td>
+                                    <td>2005</td>
+                                    <td>大气气象</td>
+                                    <td>3200</td>
+                                    <td>10310</td>
+                                    <td>T</td>
+                                    <td>21760</td>
+                                    <td>0.47</td>
+                                    <td>2006</td>
+                                </tr>
+                                <tr>
+                                    <td class="td">2</td>
+                                    <td class="td">IBM</td>
+                                    <td class="td">IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td class="td">中国<br/>国家气象局</td>
+                                    <td class="td">2005</td>
+                                    <td class="td">大气气象</td>
+                                    <td class="td">3200</td>
+                                    <td class="td">10310</td>
+                                    <td class="td">T</td>
+                                    <td class="td">21760</td>
+                                    <td class="td">0.47</td>
+                                    <td class="td">2006</td>
+                                </tr>
+                        <tr>
+                                    <td>1</td>
+                                    <td>IBM</td>
+                                    <td>IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td>中国<br/>国家气象局</td>
+                                    <td>2005</td>
+                                    <td>大气气象</td>
+                                    <td>3200</td>
+                                    <td>10310</td>
+                                    <td>T</td>
+                                    <td>21760</td>
+                                    <td>0.47</td>
+                                    <td>2006</td>
+                                </tr>
+                                <tr>
+                                    <td class="td">2</td>
+                                    <td class="td">IBM</td>
+                                    <td class="td">IBM SP Power4+<br/> eServer pSeries 655<br/> (1.7 GHz Power4+)/Federation</td>
+                                    <td class="td">中国<br/>国家气象局</td>
+                                    <td class="td">2005</td>
+                                    <td class="td">大气气象</td>
+                                    <td class="td">3200</td>
+                                    <td class="td">10310</td>
+                                    <td class="td">T</td>
+                                    <td class="td">21760</td>
+                                    <td class="td">0.47</td>
+                                    <td class="td">2006</td>
+                                </tr>                                
+                            </table>                            
+                            <ul class="page">
+                                <li><a href="licai_page.php" class="cur">1</a></li>
+                                <li><a href="licai_page.php">2</a></li>
+                                <li><a href="licai_page.php">3</a></li>
+                                <li><a href="licai_page.php">4</a></li>
+                                <li><a href="licai_page.php">下一页</a></li>
+                                <li><a href="licai_page.php">尾页</a></li>
+                                <li><span>共10页 37条记录</span></li>
+                            </ul>                              
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+</div>
+ 
+<!--  合作伙伴列表  -->
+<div class="mainWrap">
+    <div class="main">
+        <ul class="bd">
+            <li><a href="#"><img src="images/bd1.gif"/></a></li>
+            <li><a href="#"><img src="images/bd2.gif"/></a></li>
+            <li><a href="#"><img src="images/bd3.gif"/></a></li>
+            <li><a href="#"><img src="images/bd4.gif"/></a></li>
+        </ul>
+    </div>
+</div>
+
+<!--  底部  -->
+<div class="footWrap">
+    <div class="foot">
+        <div class="linkBox">
+            <h4>友情链接</h4>
+            <ul>
+                <li><a href="#">美国服务器 </a></li>  
+                <li><a href="#">香港服务器 </a></li>  
+                <li><a href="#">营养软件 </a></li>  
+                <li><a href="#">免备案空间  </a></li> 
+                <li><a href="#">ddos攻击防御 </a></li>  
+                <li><a href="#">杭州网站建设  </a></li> 
+                <li><a href="#">美国空间   </a></li>
+                <li><a href="#">郑州网站建设 </a></li>  
+                <li><a href="#">免备案空间   </a></li>
+                <li><a href="#">汕头网站建设  </a></li> 
+                <li><a href="#">香港空间   </a></li>
+                <li><a href="#">深圳网站建设</a></li>   
+                <li><a href="#">厦门网络公司 </a></li>   
+                <li><a href="#">西安网站建设 </a></li> 
+                <li><a href="#">厦门网站建设  </a></li> 
+                <li><a href="#">上海企业视窗 </a></li>   
+                <li><a href="#">厦门网络公司    </a></li>
+                <li><a href="#">厦门网站建设   </a></li> 
+                <li><a href="#">广州网站建设 </a></li>   
+                <li><a href="#">济南网站建设</a></li>    
+                <li><a href="#">天津网站建设 </a></li>   
+                <li><a href="#">天津网站建设 </a></li>  
+                <li><a href="#">成都服务器  </a></li>  
+                <li><a href="#">服务器托管   </a></li> 
+                <li><a href="#">服务器租用  </a></li>   
+                <li><a href="#">香港VPS    </a></li>
+                <li><a href="#">广东信息网 </a></li>   
+                <li><a href="#">二手服务器</a></li>
+            </ul>
+        </div> 
+        <div class="fNav">
+            <dl>
+                <dt>行业资讯</dt>
+                <dd><a href="#">业界新闻</a></dd>
+                <dd><a href="#">知名机构</a></dd>
+                <dd><a href="#">HPC专家</a></dd>
+                <dd><a href="#">知名系统</a></dd>
+                <dd><a href="#">知名厂商</a></dd>
+            </dl>
+            <dl>
+                <dt>排行榜</dt>
+                <dd><a href="#">最新榜单</a></dd>
+                <dd><a href="#">历史榜单</a></dd>
+                <dd><a href="#">统计分析</a></dd>
+            </dl>
+            <dl>
+                <dt>入榜预测</dt>
+                <dd><a href="#"></a></dd>
+                <dd><a href="#">性能入榜</a></dd>
+                <dd><a href="#">入榜申请</a></dd>
+                <dd><a href="#">预算入榜</a></dd>
+            </dl>
+            <dl>
+                <dt>关于TOP100</dt>
+                <dd><a href="#">TOP100介绍</a></dd>
+                <dd><a href="#">大事记</a></dd>
+            </dl>
+            <dl style="background: none;width: 200px;padding: 0 0 0 50px;">
+                <img src="images/wx.gif"/>
+            </dl>            
+        </div>
+        <p>版权所有：中国软件行业协会数学软件分会 地址：北京中关村南四街4号 中科院软件所五号楼324 <br/>
+            电话：010-62661636、62661632 传真：010-62661632      E-mail：samss@mail.rdcps.ac.cn</p>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+

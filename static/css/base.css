@@ -1,0 +1,32 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	background: #fff;
+	font-family: microsoft yahei;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+body {
+	font-size: 13px;
+}
+
+img {
+	border:none;
+}
+
+a {
+	color: #000;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #ffa332;
+	text-decoration:none;
+}
+
+ul li {
+	list-style:none;
+}

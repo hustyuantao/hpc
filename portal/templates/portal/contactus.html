@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+	中国高性能计算机性能TOP100排行榜 - 联系我们
+{% endblock %}
+
+{% block css %}
+	<link href="{% static 'css/base.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/header.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/ad.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/main.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/footer.css' %}" rel="stylesheet" media="screen" type="text/css" />
+{% endblock %}
+
+{% block js %}
+	<script src="{% static 'js/jquery-1.10.2.js' %}" type="text/javascript"></script>
+	<script src="{% static 'js/archefoucs.js' %}" type="text/javascript"></script>
+	<script>
+	$(document).ready(function(){
+		$('.nav > li').hover(function(){
+			$(this).find('ul').stop(true,true).slideDown(500);
+		},function(){
+			$(this).find('ul').stop(true,true).slideUp("fast");
+		})
+	});
+	</script>
+{% endblock %}
+
+{% block ad %}
+	{% include 'ad.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="mainWrap">
+	<div class="main">
+		<div class="mainBar">
+			<div class="Menubox">
+				<ul>
+					<li class="hover">联系我们</li>
+				</ul>
+			</div>
+			<div class="MenuboxC">
+				<div id="con_seven_1" class="hover" style="display: block;">
+					<div class="MenuboxCB">
+						<p>单位地址：北京市中关村南四街4号</p>
+						<p>通讯地址：北京8718信箱 邮编：100190</p>
+						<p>电话：86-10-62661012</p>
+						<p>传真：86-10-62562533</p>
+						<p>Email：info@iscas.ac.cn</p>
+						<p><img src="{% static 'images/address.jpg' %}" alt="" /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

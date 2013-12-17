@@ -1,0 +1,286 @@
+.mainWrap {
+	width: 1100px;
+	margin:0 auto 0;
+	clear: both;
+}
+
+.main {
+	width: 1100px;
+	float: left;
+}
+
+.mainBar {
+	width: 1040px;
+	float: left;
+	background: #f1f1f1;
+	margin: 0 0 30px;
+	padding: 10px 30px;
+}
+
+.rightBar {
+	width: 350px;
+	float: right;
+	overflow:hidden
+}
+
+.rightBarBox {
+	width: 290px;
+	padding: 15px 30px;
+	float: right;
+	background: #f1f1f1;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+.rightBarBox .title {
+	width: 290px;
+	float: left;
+	background: url(../images/tag.gif) no-repeat;
+	height: 60px;
+	line-height: 60px;
+	overflow:hidden;
+	font-size: 18px;
+	text-shadow: none;
+	color: #fff;
+	text-indent: 25px;
+}
+
+.rightBarBox .content {
+	float: left;
+	width: 290px;
+}
+
+.rightBarBox .content .column {
+	width: 100%;
+	float: left;
+	background: url(../images/rank.gif) no-repeat 10px 8px;
+}
+
+.rightBarBox .content .column dd {
+	width:185px;
+	padding:0 25px;
+	float: left;
+	height: 30px;
+	background: url(../images/line2.gif) bottom repeat-x;
+	font-size: 12px;
+	color: #45b1ef;
+	text-shadow: 1px 1px 0 #fff;
+}
+	
+.rightBarBox .content .column dd .no {
+	background: none;
+}
+
+.rightBarBox .content .column dd a {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-indent: 8px;
+	font-size: 12px;
+	color: #555;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.rightBarBox .inputBox {
+	float: left;
+	width: 290px;
+	background: url(../images/input.gif) no-repeat;
+	margin: 10px 0 0 0;
+}
+
+.rightBarBox .inputBox input {
+	float: left;
+	width: 120px;
+	background: #fff;
+	height: 26px;
+	border: none;
+	margin: 14px 0 11px 90px;
+}
+
+.rightBarBox .sub {
+	float: left;
+	width: 126px;
+	background: url(../images/sub.gif) no-repeat;
+	height: 36px;
+	border: none;
+	margin: 14px 0 11px 0px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.rightBarBox .reg {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	margin: 14px 0 11px 20px;
+	cursor: pointer;
+	color: green;
+}
+
+.rightBarBox .shareBox {
+	float: left;
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	border: none;
+	margin: 5px 0 11px 0px;
+}
+
+.rightBarBox .shareBox span {
+	float: left;
+	height: 48px;
+	line-height: 48px;
+	font-size: 16px;
+	text-indent: 10px;
+	color: #777;
+}
+
+.rightBarBox .shareBox a {
+	float: left;
+	height: 48px;
+	padding: 0 10px 0 10px;
+}
+
+.leftBar {
+	width: 720px;
+	float: left;
+	overflow:hidden;
+}
+
+.leftBarBox {
+	width: 660px;
+	float: left;
+	background: #f1f1f1;
+	overflow:hidden;
+	margin-bottom: 20px;
+	padding: 10px 30px;
+}
+
+.leftBarBox .title {
+	width: 100%;
+	float: left;
+	height: 36px;
+	text-indent: 20px;
+	color: #777;
+	font-size: 12px;
+	line-height: 36px;
+	background: url(../images/title_bg2.jpg) repeat-x;
+	border-bottom: 1px solid #e8e9e8;
+}
+
+.leftBarBox .content {
+	float: left;
+	width: 100%;
+}
+
+.leftUl {
+	float: left;
+	width: 100%;
+	padding: 20px 0 0;
+}
+
+.leftUl li {
+	float: left;
+	width: 100%;
+	background: url(../images/dot.gif) 0 11px no-repeat;
+	text-indent: 13px;
+	line-height: 42px;
+}
+
+.leftUl li a {
+	color: #333;
+	font-size: 15px;
+}
+
+.leftUl li span {
+	color: #888;
+	font-size: 15px;
+	padding: 0 0 0 15px;
+}
+
+.Menubox {
+	width:100%;
+	height: 46px;
+	float: left;
+	background: url(../images/line3.gif) repeat-x bottom;
+}
+
+.Menubox ul {
+	width:100%;
+	height:46px;
+	float: left;
+	font-size: 14px;
+}
+
+.Menubox li {
+	height: 43px;
+	line-height: 43px;
+	float: left;
+	display: block;
+	cursor: pointer;
+	color: #666;
+	font-weight: bold;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 20px 0 0 ;
+}
+
+.Menubox li.hover {
+	color:#1c6dbf;
+	border-bottom: 3px solid #1c6dbf;
+}
+
+.MenuboxC {
+	width:100%;
+	float:left;
+} 
+
+.MenuboxCB {
+	width:100%;
+	float:left;
+}
+
+.newsUl {
+	float: left;
+	margin:20px 0px 20px;
+	width:100%;
+	font-size:12px;
+}
+
+.newsUl li {
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding: 0px  0px 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+
+.newsUl li .img,.newsUl li .img img {
+	width:168px;
+	height: 126px;
+	float: left;
+	overflow:hidden;
+}
+
+.newsUl li a.listtitle {
+	overflow:hidden;
+	width:470px;
+	line-height:24px;
+	float: right;
+	font-size: 16px;
+	color: #444;
+	font-weight: bold;
+	padding: 10px 0 5px;
+}
+
+.newsUl p {
+	float: right;
+	width:470px;
+	line-height:20px;
+	color:#444;
+	margin: 0 0 15px;
+}
+

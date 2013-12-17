@@ -1,0 +1,111 @@
+.footWrap {
+	width:100%;
+	height: 510px;
+	background: url(../images/footerBg.gif) repeat-x top;
+	margin: 30px auto 0;
+	float: left;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.foot {
+	width: 1100px;
+	height: 65px;
+	margin:0 auto;
+	padding: 40px 0;
+	color: #888;
+	line-height: 22px;
+}
+
+.foot .linkBox {
+	width:100%;
+	padding: 0 0 20px;
+	float: left;
+	color: #888;
+	line-height:22px;
+	background: url(../images/footerLine1.gif) repeat-x bottom;
+}
+
+.foot .linkBox h4 {
+	width:100%;
+	float: left;
+	color: #ddd;
+	line-height:42px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.foot .linkBox ul {
+	width:100%;
+	float: left;
+	color: #ddd;
+	line-height:22px;
+}
+
+.foot .linkBox ul li {
+	float: left;
+	color: #ddd;
+	line-height:24px;
+	font-size: 12px;
+	padding: 0 25px 0 0;
+}
+
+.foot .linkBox ul li a {
+	float: left;
+	color: #999;
+	line-height:24px;
+	font-size: 12px;
+	font-family: simsun;
+	text-shadow: none;
+}
+
+.foot .fNav {
+	width:100%;
+	padding: 20px 0 20px;
+	float: left;
+	color: #888;
+	line-height:22px;
+}
+
+.foot .fNav dl {
+	width: 150px;
+	margin: 0 40px 0 0;
+	height: 180px;
+	float: left;
+	color: #888;
+	line-height:22px;
+	background: url(../images/footerLine2.gif) repeat-y right;
+}
+
+.foot .fNav dl dt {
+	width:100%;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+	color: #ddd;
+	padding: 0 0 10px;
+}
+
+.foot .fNav dl dd {
+	width:100%;
+	line-height: 22px;
+	font-size: 12px;
+	font-weight: normal;
+	float: left;
+	color: #999;
+	font-family: simsun;
+}
+
+.foot .fNav dl dd a {
+	color: #999;
+	text-shadow: none;
+}
+
+.foot p {
+	width:100%;
+	padding: 37px 0 00px;
+	float: left;
+	color: #aaa;
+	line-height:26px;
+	font-size: 14px;
+}

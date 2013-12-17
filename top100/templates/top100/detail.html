@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+	TOP100排行榜详细信息
+{% endblock %}
+
+{% block css %}
+	<link href="{% static 'css/base.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/header.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/ad.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/main.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/table.css' %}" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{% static 'css/footer.css' %}" rel="stylesheet" media="screen" type="text/css" />
+{% endblock %}
+
+{% block js %}
+	<script src="{% static 'js/jquery-1.10.2.js' %}" type="text/javascript"></script>
+	<script src="{% static 'js/archefoucs.js' %}" type="text/javascript"></script>
+	<script>
+	$(document).ready(function(){
+		$('.nav > li').hover(function(){
+			$(this).find('ul').stop(true,true).slideDown(500);
+		},function(){
+			$(this).find('ul').stop(true,true).slideUp("fast");
+		})
+	});
+	</script>
+{% endblock %}
+
+{% block ad %}
+	{% include 'ad.html' %}
+{% endblock %}
+
+{% block content %}
+<div class="mainWrap">
+	<div class="main">
+		<div class="mainBar">
+			<div class="Menubox">
+				<ul>
+					<li class="hover">TOP100排行榜</li>
+				</ul>
+			</div>
+			<div class="MenuboxC">
+				<div id="con_seven_1" class="hover" style="display: block;">
+					<div class="MenuboxCB">
+						<table class="table1"  border="0" cellspacing="1">
+							<tr>
+								<th>排名</th>
+								<th>研制厂商</th>
+								<th>型号</th>
+								<th>安装地点</th>
+								<th>安装年份</th>
+								<th>应用领域</th>
+								<th>CPU核数</th>
+								<th>Linpack值</th>
+								<th>Linpack来源</th>
+								<th>Linpack峰值</th>
+								<th>效率</th>
+							</tr>
+							{% if rankinglist %}
+								{% for ranking in rankinglist %}
+								<tr>
+									<td>{{ranking.rank}}</td>
+									<td>{{ranking.manufacturer}}</td>
+									<td>{{ranking.computer}}</td>
+									<td>{{ranking.site}}</td>
+									<td>{{ranking.year}}</td>
+									<td>{{ranking.segment}}</td>
+									<td>{{ranking.total_cores}}</td>
+									<td>{{ranking.rmax}}</td>
+									<td>{{ranking.reference}}</td>
+									<td>{{ranking.rpeak}}</td>
+									<td>{{ranking.efficiency}}</td>
+
+								</tr>
+								{% endfor %}
+							{% endif %}
+						</table>
+						<ul class="page">
+							<li><a href="licai_page.php" class="cur">1</a></li>
+							<li><a href="licai_page.php">2</a></li>
+							<li><a href="licai_page.php">3</a></li>
+							<li><a href="licai_page.php">4</a></li>
+							<li><a href="licai_page.php">下一页</a></li>
+							<li><a href="licai_page.php">尾页</a></li>
+							<li><span>共10页 37条记录</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
